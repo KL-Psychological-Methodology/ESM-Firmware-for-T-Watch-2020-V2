@@ -4,6 +4,8 @@ A Firmware to facilitate studies using in-situ self-reports with the T-Watch 202
 
 This firmware allows to setup questionnaires and notifications using a simple JSON configuration file. The watch does not connect to any networks. It will automatically read configuration files stored on an inserted micro-SD card, and store responses and logs as CSV on the micro-SD card as well, making data transfer easy.
 
+For an easy way to configure a study configuration file see the configuration application: https://github.com/KL-Psychological-Methodology/ESM-Firmware-for-T-Watch-2020-V2-Configuration-App
+
 # Questionnaire Features
 
 The firmware allows to define multiple questionnaires, each with multiple items. Questionnaires can be set to always be selectable by participants (e.g., for when they should be filled out in response to a real-life event). They can also be made accessible via notifications that are triggered via a predefined schedule (see Notification Features).
